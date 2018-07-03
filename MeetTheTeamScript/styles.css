@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient(to bottom left, #00C3AA, #008BDB);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 98vh;
+  overflow: hidden;
+}
+.input {
+  height: 300px;
+}
+input {
+  height: 20px;
+  width: 100px;
+}
+.Product {
+  color: white;
+  height: 70vh;
+  width: 40%;
+  background: rgba(0,0,0,.5);
+  padding-left: 10px;
+  font-size: 15px;
+  overflow: auto;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+}
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.Container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 2vmax;
+  width: 40%;
+  height: 20%;
+  /* background: white; */
+}
+
+.Container > textarea {
+  height: 68vh;
+  width: 40vw;
+  font-size: 20px;
+  z-index: 2;
+  padding-top: 30px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  background: rgba(255,255,255,.8);
+}
+.btn {
+  height: 10vh;
+  width: 20vw;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 1.5vw;
+  border: none;
+  outline: none;
+  transition: .5s;
+  background: rgba(0,0,0,.5);
+  background: linear-gradient(to right,  rgba(255,255,255,.8), rgba(0,0,0,.5));
+}
+.btn:hover {
+  letter-spacing: 10px;
+}
+.Copy {
+  position: absolute;
+  border: none;
+  outline: none;
+  top: 7%;
+  right: 3%;
+  width: 10%;
+  height: 5%;
+  border-radius: 10px;
+  font-size: 15px;
+  background: rgba(255,255,255,.5);
+  transition: .3s;
+}
+.Copy:focus {
+  background: blue;
+  color: white;
+}
+.Copy:hover {
+  background: rgba(255,255,255,.8);
+}
