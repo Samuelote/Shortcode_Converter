@@ -15,7 +15,7 @@ function start(){
       cap = cap.replace(/^\w/, c => c.toUpperCase());
       if (cap === '' || cap === ' ') continue;
       //exception for brandy for uknown reason
-      let className = (cap === 'Brandy')  ? 'brandi' : cap.toLowerCase();
+      let className = cap.toLowerCase();
 
       if (finalProduct.join('').includes(className)) className = className+'2';
       //checks for repeats but only 2. if theres three, we have problems.
