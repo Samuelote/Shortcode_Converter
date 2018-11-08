@@ -4,4 +4,4 @@ This is an extremely specific script for First Call's "Meet the Team" page. Soon
 
 ## todos:
 
-1. Gotta make the algorithm scalable with multiples of the same name.
+1. Add css to be converted as well.
