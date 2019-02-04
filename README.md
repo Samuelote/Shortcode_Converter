@@ -4,4 +4,4 @@ This is an extremely specific script for First Call's "Meet the Team" page. Soon
 
 ## todos:
 
-1. Add css to be converted as well.
+1. Update to new form as seen with Addeys' photo.
